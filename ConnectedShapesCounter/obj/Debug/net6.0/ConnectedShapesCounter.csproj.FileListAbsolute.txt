@@ -1,0 +1,15 @@
+C:\Users\Kyle.Simmons\source\repos\ConnectedShapesCounter\ConnectedShapesCounter\bin\Debug\net6.0\ConnectedShapesCounter.exe
+C:\Users\Kyle.Simmons\source\repos\ConnectedShapesCounter\ConnectedShapesCounter\bin\Debug\net6.0\ConnectedShapesCounter.deps.json
+C:\Users\Kyle.Simmons\source\repos\ConnectedShapesCounter\ConnectedShapesCounter\bin\Debug\net6.0\ConnectedShapesCounter.runtimeconfig.json
+C:\Users\Kyle.Simmons\source\repos\ConnectedShapesCounter\ConnectedShapesCounter\bin\Debug\net6.0\ConnectedShapesCounter.dll
+C:\Users\Kyle.Simmons\source\repos\ConnectedShapesCounter\ConnectedShapesCounter\bin\Debug\net6.0\ConnectedShapesCounter.pdb
+C:\Users\Kyle.Simmons\source\repos\ConnectedShapesCounter\ConnectedShapesCounter\obj\Debug\net6.0\ConnectedShapesCounter.csproj.AssemblyReference.cache
+C:\Users\Kyle.Simmons\source\repos\ConnectedShapesCounter\ConnectedShapesCounter\obj\Debug\net6.0\ConnectedShapesCounter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kyle.Simmons\source\repos\ConnectedShapesCounter\ConnectedShapesCounter\obj\Debug\net6.0\ConnectedShapesCounter.AssemblyInfoInputs.cache
+C:\Users\Kyle.Simmons\source\repos\ConnectedShapesCounter\ConnectedShapesCounter\obj\Debug\net6.0\ConnectedShapesCounter.AssemblyInfo.cs
+C:\Users\Kyle.Simmons\source\repos\ConnectedShapesCounter\ConnectedShapesCounter\obj\Debug\net6.0\ConnectedShapesCounter.csproj.CoreCompileInputs.cache
+C:\Users\Kyle.Simmons\source\repos\ConnectedShapesCounter\ConnectedShapesCounter\obj\Debug\net6.0\ConnectedShapesCounter.dll
+C:\Users\Kyle.Simmons\source\repos\ConnectedShapesCounter\ConnectedShapesCounter\obj\Debug\net6.0\refint\ConnectedShapesCounter.dll
+C:\Users\Kyle.Simmons\source\repos\ConnectedShapesCounter\ConnectedShapesCounter\obj\Debug\net6.0\ConnectedShapesCounter.pdb
+C:\Users\Kyle.Simmons\source\repos\ConnectedShapesCounter\ConnectedShapesCounter\obj\Debug\net6.0\ConnectedShapesCounter.genruntimeconfig.cache
+C:\Users\Kyle.Simmons\source\repos\ConnectedShapesCounter\ConnectedShapesCounter\obj\Debug\net6.0\ref\ConnectedShapesCounter.dll
