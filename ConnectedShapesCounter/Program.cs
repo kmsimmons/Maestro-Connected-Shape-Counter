@@ -6,7 +6,7 @@ class Program
 {
     static void Main()
     {
-        string fileName = @"TextFiles\data_large.txt"; //data_large.txt
+        string fileName = @"TextFiles\data_small.txt"; //data_large.txt
 
         // read the grid and create a jagged array where # of rows = number of lines in the file
         char[][] grid = CreateGridFromFile(fileName);
@@ -45,9 +45,9 @@ class Program
 
         int shapeCount = 0;
 
-        for (int row = 0; row < rowCount;row++)
+        for (int row = 0; row < rowCount; row++)
         {
-            for (int column = 0; column < columnCount;column++)
+            for (int column = 0; column < columnCount; column++)
             {
                 if (grid[row][column] == '1' && !visited[row][column])
                 {
