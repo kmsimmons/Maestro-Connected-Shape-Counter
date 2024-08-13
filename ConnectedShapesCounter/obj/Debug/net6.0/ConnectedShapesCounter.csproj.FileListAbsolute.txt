@@ -13,3 +13,5 @@ C:\Users\Kyle.Simmons\source\repos\ConnectedShapesCounter\ConnectedShapesCounter
 C:\Users\Kyle.Simmons\source\repos\ConnectedShapesCounter\ConnectedShapesCounter\obj\Debug\net6.0\ConnectedShapesCounter.pdb
 C:\Users\Kyle.Simmons\source\repos\ConnectedShapesCounter\ConnectedShapesCounter\obj\Debug\net6.0\ConnectedShapesCounter.genruntimeconfig.cache
 C:\Users\Kyle.Simmons\source\repos\ConnectedShapesCounter\ConnectedShapesCounter\obj\Debug\net6.0\ref\ConnectedShapesCounter.dll
+C:\Users\Kyle.Simmons\source\repos\ConnectedShapesCounter\ConnectedShapesCounter\bin\Debug\net6.0\TextFiles\data_small.txt
+C:\Users\Kyle.Simmons\source\repos\ConnectedShapesCounter\ConnectedShapesCounter\bin\Debug\net6.0\TextFiles\data_large.txt

@@ -4,11 +4,11 @@ using System.IO;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        string fileName = "data_small.txt"; //data_large.txt
+        string fileName = @"TextFiles\data_large.txt"; //data_large.txt
 
-        // read the grid and create a jagged array
+        // read the grid and create a jagged array where # of rows = number of lines in the file
         char[][] grid = CreateGridFromFile(fileName);
         int result = CountConnectedShapes(grid);
         Console.WriteLine($"Number of connected shapes in {fileName}: {result}");
@@ -37,12 +37,13 @@ class Program
 
         // track visited cells -> init same size as grid
         bool[][] visited = new bool[rowCount][];
-        int shapeCount = 0;
 
         for (int i = 0; i < rowCount; i++)
         {
             visited[i] = new bool[columnCount];
         }
+
+        int shapeCount = 0;
 
         for (int row = 0; row < rowCount;row++)
         {
@@ -61,8 +62,9 @@ class Program
 
     static void DepthFirstSearch(char[][] grid, bool[][] visited, int row, int column)
     {
-        int[] dRow = { -1, 1, 0, 0 };
-        int[] dColumn = { 0, 0, -1, 1 };
+        // possible directions -> (-1,0) = up, (1,0) = down, etc
+        int[] directionRow = { -1, 1, 0, 0 };
+        int[] directionColumn = { 0, 0, -1, 1 };
 
         // mark current cell as visited
         visited[row][column] = true;
@@ -70,10 +72,11 @@ class Program
         // check adjacent cells
         for (int i = 0; i < 4; i++)
         {
-            int newRow = row + dRow[i];
-            int newColumn = column + dColumn[i];
+            int newRow = row + directionRow[i];
+            int newColumn = column + directionColumn[i];
             if (IsAdjacent(grid, visited, newRow, newColumn))
             {
+                // call recursively to check for more adjacent 1s
                 DepthFirstSearch(grid, visited, newRow, newColumn);
             }
         }
